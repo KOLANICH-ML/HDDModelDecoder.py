@@ -1,0 +1,168 @@
+Segment	Family			Model	capacity		RPM		Interface		Buffer size	Sector size
+
+Desktop	 P80			SP0211N	  20	????	PATA 0.133 Gbps	2		512
+
+Desktop	????			HS031GA	  30	3600	PATA/ZIF		2		512
+Desktop	????			HS030GB	  30	4200	PATA/ZIF		2		512
+Mobile	MP4				HM031HC	  30	5400	PATA			8		512
+
+Desktop	 P80			SP0401N	  40	????	PATA 0.133 Gbps	2		512
+Desktop	????			HS041HA	  40	3600	PATA/ZIF		2		512
+Desktop	????			HS040HB	  40	4200	PATA/ZIF		2		512
+Desktop	????			HD041GJ	  40	7200	SATA 3.0 Gbps	2		512
+Desktop	????			HS04THB	  40	4200	PATA/ZIF		8		512
+Desktop	????			HD042GJ	  40	7200	SATA 3.0 Gbps	8		512
+
+Desktop	 P80			SP0612N	  60	????	PATA 0.133 Gbps	2		512
+Desktop	????			HS061HA	  60	3600	PATA/ZIF		2		512
+Desktop	????			HS060HB	  60	4200	PATA/ZIF		2		512
+Desktop	????			HS06THB	  60	4200	PATA/ZIF		8		512
+Desktop	????			HS06VHF	  60	5400	SATA 3.0 Gbps	16		512
+Desktop	????			HS06RHF	  60	5400	SATA 3.0 Gbps	16		512
+
+Desktop	 P80			SP0802N	  80	????	PATA 0.133 Gbps	2		512
+Desktop	????			HS080HA	  80	3600	PATA/ZIF		2		512
+Desktop	????			HD081GJ	  80	7200	SATA 3.0 Gbps	2		512
+Desktop	????			HS080HB	  80	4200	PATA/ZIF		2		512
+
+Desktop	????			HS081HA	  80	3600	PATA/ZIF		2		512
+Desktop	????			HS081HB	  80	4200	PATA/ZIF		2		512
+Desktop	????			HS082HB	  80	4200	PATA/ZIF		8		512
+Desktop	????			HS083HB	  80	4200	PATA/ZIF		8		512
+Desktop	 P80			SP0812N	  80	????	PATA 0.133 Gbps	8		512
+Desktop	 P80			SP0812C	  80	????	SATA 1.0		8		512
+Desktop	????			HD082GJ	  80	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD642JJ	  80	7200	SATA 3.0 Gbps	8		512
+Desktop	????			HS08VHF	  80	5400	SATA 3.0 Gbps	16		512
+Desktop	????			HS08RHF	  80	5400	SATA 3.0 Gbps	16		512
+
+Desktop	????			HS10TJB	 100	4200	PATA/ZIF		8		512
+
+Desktop	????			HS120JB	 120	4200	PATA/ZIF		2		512
+Desktop	????			HS12UJQ	 120	4200	CE-ATA			2		512
+Desktop	 P80			SP1203N	 120	????	PATA 0.133 Gbps	2		512
+Desktop	????			HS122JB	 120	4200	PATA/ZIF		8		512
+Desktop	 P80			SP1213N	 120	????	PATA 0.133 Gbps	8		512
+Desktop	 P80			SP1213C	 120	????	SATA 1.0		8		512
+Desktop	????			HD120HJ	 120	7200	SATA 3.0 Gbps	8		512
+
+Desktop	????			HS12RJF	 120	5400	SATA 3.0 Gbps	16		512
+Desktop	????			HS12VJF	 120	5400	SATA 3.0 Gbps	16		512
+
+Desktop	 P80			SP1604N	 160	????	PATA 0.133 Gbps	2		512
+Desktop	????			HS160JB	 160	4200	PATA/ZIF		2		512
+Desktop	????			HS161JB	 160	4200	PATA/ZIF		2		512
+Desktop	????			HS161JQ	 160	4200	CE-ATA			2		512
+Mobile	 M5P			HM160HC	 160	5400	PATA			8		512
+Desktop	 P80			SP1614N	 160	????	PATA 0.133 Gbps	8		512
+Mobile	 M7U			HM162HX	 160	5400	USB 2.0			8		512
+Desktop	 P80			SP1614C	 160	????	SATA 1.0		8		512
+Mobile	 MP4			HM160HI	160		5400	SATA 1.5 Gbps	8		512
+Desktop	????			HD161HJ	 160	7200	SATA 3.0 Gbps	8		512
+Desktop	S250			HD162HJ	 160	7200	SATA 3.0 Gbps	8		512
+Mobile	 M7 (Enhanced)	HM161GI	 160	5400	SATA 3.0 Gbps	8		512
+Mobile	 M8				HN-M160MBB	160	5400	SATA 3.0 Gbps	8		512
+Mobile	 M7				HM161HI	 160	5400	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD083GJ	 160	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD753LJ	 160	7200	SATA 3.0 Gbps	8		512
+Desktop	F4				HD165GJ	 160	7200	SATA 3.0 Gbps	8		512
+Desktop	????			HS16RJF	 160	5400	SATA 3.0 Gbps	16		512
+Desktop	????			HS16VJF	 160	5400	SATA 3.0 Gbps	16		512
+Desktop	F1DT			HD321HJ	 160	7200	SATA 3.0 Gbps	16		512
+Desktop	F3  			HD324HJ	 160	7200	SATA 3.0 Gbps	16		512
+Desktop	F4				HD166GJ	 160	7200	SATA 3.1 Gbps	16		512
+
+Desktop	S250			HD200HJ	 200	7200	SATA 3.0 Gbps	8		512
+Desktop	P120			SP2004C	 200	7200 	SATA 3.0 Gbps	8		512
+
+Desktop	T133			HD300LJ	 300	7200	SATA 3.0		8		512
+Desktop	T133			HD300LD	 300	7200	PATA 0.100 Gbps 		8		512
+
+Desktop	T133			HD400LD	 400	7200	PATA 0.100 Gbps 		8		512
+Desktop	T133			HD400LJ	 400	7200	SATA 3.0		8		512
+
+Mobile	 M7U			HM252HX	 250	5400	USB 2.0			8		512
+Mobile	 M7 (Enhanced)	HM251HI	 250	5400	SATA 3.0 Gbps	8		512
+Mobile	 M7 			HM250II	 250	5400	SATA 3.0 Gbps	8		512
+Mobile	M8			HN-M250MBB	 250	5400	SATA 3.0 Gbps	8
+Mobile	M7				HM250HI	 250	5400	SATA 3.0 Gbps	8		512
+Desktop	P120			SP2504C	 250	7200 	SATA 3.0 Gbps	8		512
+Desktop	S250			HD250HJ	 250	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD161GJ	 250	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD103UJ	 250	7200	SATA 3.0 Gbps	8		512
+Desktop	F4				HD255GJ	 250	7200	SATA 3.2 Gbps	8		512
+Mobile	MP4				HM250HJ	 250	7200	SATA 3.0 Gbps	16
+Desktop	F1DT			HD501IJ	 250	7200	SATA 3.0 Gbps	16		512
+Desktop	F1EG			HD252HI	 250	????	SATA 3.0 Gbps	16		512
+Desktop	F3  			HD163GJ	 250	7200	SATA 3.0 Gbps	16		512
+Desktop	F3EG			HD253GI	 250	????	SATA 3.0 Gbps	16		512
+Desktop	F4				HD256GJ	 250	7200	SATA 3.3 Gbps	16		512
+
+
+Mobile	 M7U			HM322IX	 320	5400	USB 2.0			8		512
+Mobile	 M7 (Enhanced)	HM321HI	 320	5400	SATA 3.0 Gbps	8		512
+Mobile	 M7 			HM320HI	 320	5400	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD251HJ	 320	7200	SATA 3.0 Gbps	8		512
+Desktop	F3  			HD164GJ	 320	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD162GJ	 320	7200	SATA 3.0 Gbps	16		512
+Desktop	F1EG			HD322HI	 320	????	SATA 3.0 Gbps	16		512
+Desktop	F3  			HD253GJ	 320	7200	SATA 3.0 Gbps	16		512
+Desktop	F3EG			HD324HI	 320	????	SATA 3.0 Gbps	16		512
+
+
+Mobile	M7				HM320II	 320	5400	SATA 3.0 Gbps	8		512
+Mobile	M8				HN-M320MBB	320	5400	SATA 3.0 Gbps	8
+Mobile	MP4				HM320HJ	320		7200	SATA 3.0 Gbps	16
+Desktop	F4				HD322GJ	320		7200	SATA 3.4 Gbps	16		512
+
+Mobile	M7				HM400JI	 400	5400	SATA 3.0 Gbps	8		512
+Mobile	 M7 			HM400HI	 400	5400	SATA 3.0 Gbps	8		512
+
+Mobile	 M7U			HM502JX	 500	5400	USB 2.0			8		512
+Mobile	 M7 (Enhanced)	HM501JI	 500	5400	SATA 3.0 Gbps	8		512
+Mobile	 M7 			HM500JI	 500	5400	SATA 3.0 Gbps	8		512
+Mobile	M7				HM500JI	 500	5400	SATA 3.0 Gbps	8		512
+Mobile	M7e				HM501II	 500	5400	SATA 3.0 Gbps	8		512
+Mobile	M8				HN-M500MBB	500	5400	SATA 3.0 Gbps	8
+Mobile	MP4				HM500JJ	500		7200	SATA 3.0 Gbps	16
+Desktop	F3  			HD254GJ	 500	7200	SATA 3.0 Gbps	8		512
+Desktop	F1DT			HD252HJ	 500	7200	SATA 3.0 Gbps	16		512
+Desktop	F1EG			HD502JI	 500	????	SATA 3.0 Gbps	16		512
+Desktop	F2EG			HD502HI	 500	????	SATA 3.0 Gbps	16		512
+Desktop	F3  			HD323HJ	 500	7200	SATA 3.0 Gbps	16		512
+Desktop	F3EG			HD503HI	 500	????	SATA 3.0 Gbps	16		512
+
+Mobile	 M7 (Enhanced)	HM641JI	 640	5400	SATA 3.0 Gbps	8		512
+Mobile	M8			HN-M640MBB	640		5400	SATA 3.0 Gbps	8
+Mobile	MP4				HM640JJ	640		7200	SATA 3.0 Gbps	16
+Desktop	F3  			HD502HJ	 640	7200	SATA 3.0 Gbps	16		512
+Desktop	F1EG			HD642JI	 640	????	SATA 3.0 Gbps	16		512
+
+Mobile	Mt2				HM750LI	 750	5400	SATA 3.0 Gbps	8
+Mobile	M8			HN-M750MBB	 750	5400	SATA 3.0 Gbps	8
+Desktop	F1DT			HD322HJ	 750	7200	SATA 3.0 Gbps	32		512
+Desktop	F2EG			HD753LI	 750	????	SATA 3.0 Gbps	32		512
+Desktop	F3  			HD754JJ	 750	7200	SATA 3.0 Gbps	32		512
+Desktop	F3EG			HD754JI	 750	????	SATA 3.0 Gbps	32		512
+Enterprise	F3R			HE754JJ	750		7200	SATA 3.0 Gbps	32		512
+
+Mobile	Mt2				HM100UI	1000	5400	SATA 3.0 Gbps	8
+Mobile	M8			HN-M101MBB	1000	5400	SATA 3.0 Gbps	8
+Desktop	F2EG			HD102SI	1000	????	SATA 3.0 Gbps	16		512
+Desktop	F1DT			HD502IJ	1000	7200	SATA 3.0 Gbps	32		512
+Desktop	F2EG			HD103SI	1000	????	SATA 3.0 Gbps	32		512
+Desktop	F2EG			HD103UI	1000	????	SATA 3.0 Gbps	32		512
+Desktop	F3  			HD103SJ	1000	7200	SATA 3.0 Gbps	32		512
+Desktop	F3EG			HD105SI	1000	????	SATA 3.0 Gbps	32		512
+Enterprise	F3R			HE103SJ	1000	7200	SATA 3.0 Gbps	32		512
+
+Desktop	F1EG			HD153UI	1500	????	SATA 3.0 Gbps	16		512
+Desktop	F1EG			HD154UI	1500	????	SATA 3.0 Gbps	32		512
+Desktop	F3eG			HD153WI	1500	????	SATA 3.0 Gbps	32		512
+Desktop	F4eG-3			HD155UI	1500	????	SATA 3.0 Gbps	32		4096
+
+Enterprise	F3R			HE253GJ	250		7200	SATA 3.0 Gbps	16		512
+Enterprise	F3R			HE502HJ	500		7200	SATA 3.0 Gbps	16		512
+
+Desktop	F3eG			HD203WI	2000	????	SATA 3.0 Gbps	32		512
+Desktop	F4eG-3			HD204UI	2000	????	SATA 3.0 Gbps	32		4096

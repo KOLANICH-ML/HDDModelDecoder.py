@@ -1,0 +1,76 @@
+#image: pypy:latest
+image: registry.gitlab.com/kolanich/fixed_python:latest
+stages:
+  - dependencies
+  - build
+  - test
+  - tooling
+
+build:
+  tags:
+    - shared
+  stage: build
+  variables:
+    GIT_DEPTH: "1"
+    PYTHONUSERBASE: ${CI_PROJECT_DIR}/python_user_packages
+
+  before_script:
+    - export PYTHON_MODULES_DIR=${PYTHONUSERBASE}/lib/python3.7
+    - export EXECUTABLE_DEPENDENCIES_DIR=${PYTHONUSERBASE}/bin
+    - export PATH="$PATH:$EXECUTABLE_DEPENDENCIES_DIR" # don't move into `variables` any of them, it is unordered
+    - pip3 install --user --pre --upgrade git+https://github.com/berkerpeksag/astor.git git+https://github.com/erikrose/more-itertools.git
+    - pip3 install --user --pre --upgrade https://gitlab.com/KOLANICH/pyxgboost/-/jobs/artifacts/master/raw/wheels/pyxgboost-0.CI-py3-none-any.whl?job=build
+    - pip3 install --user --pre --upgrade git+https://gitlab.com/KOLANICH/AutoXGBoost.py.git git+https://gitlab.com/KOLANICH/NoSuspend.py.git
+
+  script:
+    - mkdir wheels
+    - python3 learn/learnWDSeries.py --train --score 10
+    - python3 setup.py bdist_wheel
+    - coverage run --source=HDDModelDecoder tests/test.py || true
+    - ls -l ./dist
+    - mv ./dist/*.whl ./wheels/HDDModelDecoder-0.CI_xgboost-py3-none-any.whl
+    - pip3 install --upgrade --pre --user ./wheels/HDDModelDecoder-0.CI_xgboost-py3-none-any.whl
+
+    - rm HDDModelDecoder/ml/WD_models/*.model
+    - python3 learn/learnWDSeries.py --train --score 10 --format python
+    - python3 setup.py bdist_wheel
+    - coverage run --source=HDDModelDecoder -m pytest --junitxml=./rspec.xml ./tests/tests.py || true
+    - coverage report -m
+    - coverage xml
+    - ls -l ./dist
+    - mv ./dist/*.whl ./wheels/HDDModelDecoder-0.CI_python-py3-none-any.whl
+    - pip3 install --upgrade --pre --user ./wheels/HDDModelDecoder-0.CI_python-py3-none-any.whl
+
+  coverage: /^TOTAL\\s+.+?(\\d{1,3}%)$/
+
+  cache:
+    paths:
+      - $PYTHONUSERBASE
+
+  artifacts:
+    paths:
+      - dist
+    reports:
+      junit: ./rspec.xml
+      cobertura: ./coverage.xml
+
+checks:
+  stage: tooling
+  tags:
+    - shared
+  image: docker:latest
+  variables:
+    DOCKER_DRIVER: overlay2
+  allow_failure: true
+  services:
+    - docker:dind
+  script:
+    - docker run --env SAST_CONFIDENCE_LEVEL=5 --volume "$PWD:/code" --volume /var/run/docker.sock:/var/run/docker.sock "registry.gitlab.com/gitlab-org/security-products/sast:latest" /app/bin/run /code
+    #- docker run --env SOURCE_CODE="$PWD" --env CODECLIMATE_VERSION="latest" --volume "$PWD":/code --volume /var/run/docker.sock:/var/run/docker.sock "registry.gitlab.com/gitlab-org/security-products/codequality:latest" /code
+    #- docker run --env DEP_SCAN_DISABLE_REMOTE_CHECKS="${DEP_SCAN_DISABLE_REMOTE_CHECKS:-false}" --volume "$PWD:/code" --volume /var/run/docker.sock:/var/run/docker.sock "registry.gitlab.com/gitlab-org/security-products/dependency-scanning:latest" /code
+
+  artifacts:
+    reports:
+      #codequality: gl-code-quality-report.json
+      sast: gl-sast-report.json
+      #dependency_scanning: gl-dependency-scanning-report.json 

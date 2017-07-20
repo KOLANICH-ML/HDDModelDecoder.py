@@ -1,0 +1,42 @@
+{
+	"series": {
+		"colsample_bytree" : 0.965454918895709,
+		"learning_rate" : 0.4326448624157522,
+		"max_depth" : 20,
+		"min_child_weight" : 0.03892563664756513,
+		"min_split_loss" : 0.017928142119567426,
+		"n_estimators" : 35,
+		"reg_alpha" : 0.1971895336987934,
+		"subsample" : 0.8519303786620037
+	},
+	"Caviar": {
+		"colsample_bytree" : 0.9451615772532829,
+		"learning_rate" : 0.44981231171492403,
+		"max_depth" : 22,
+		"min_child_weight" : 0.07894413336299037,
+		"min_split_loss" : 0.7796040450315559,
+		"n_estimators" : 6,
+		"reg_alpha" : 0.0170901963375754,
+		"subsample" : 0.9654030894680347
+	},
+	"GP": {
+		"colsample_bytree" : 0.9918026263205217,
+		"learning_rate" : 0.44997565113353716,
+		"max_depth" : 8,
+		"min_child_weight" : 0.06923967987771468,
+		"min_split_loss" : 0.003088305143234882,
+		"n_estimators" : 42,
+		"reg_alpha" : 0.00046717046727817735,
+		"subsample" : 0.9837281794958566
+	},
+	"Scorpio": {
+		"colsample_bytree" : 0.9740930032375348,
+		"learning_rate" : 0.44999992997580296,
+		"max_depth" : 37,
+		"min_child_weight" : 13.275331341072247,
+		"min_split_loss" : 6.015488520814031,
+		"n_estimators" : 13,
+		"reg_alpha" : 8.584961870659978,
+		"subsample" : 0.9986554385626788
+	}
+}

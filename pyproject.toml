@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.2", "wheel", "setuptools_scm[toml]>=3.4.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HDDModelDecoder"
+authors = [{name = "KOLANICH"}]
+description = "Decodes HDD characteristics (like capacity, RPM or buffer size) encoded in model numbers/names."
+readme = "ReadMe.md"
+keywords = ["hdd", "decode", "extract", "model", "Seagate", "WD", "Western-Digital", "HGST", "Hitachi", "Samsung", "Toshiba"]
+license = {text = "Unlicense"}
+classifiers = [
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Development Status :: 4 - Beta",
+	"Environment :: Other Environment",
+	"Intended Audience :: Developers",
+	"License :: Public Domain",
+	"Operating System :: OS Independent",
+]
+requires-python = ">=3.4"
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://codeberg.org/KOLANICH-ML/HDDModelDecoder.py"
+
+[project.optional-dependencies]
+"machine-learning-based-prediction" = [
+	"Chassis", # @ git+https://codeberg.org/KOLANICH-ML/Chassis.py.git
+	"AutoXGBoost", # @ git+https://codeberg.org/KOLANICH-ML/AutoXGBoost.py.git
+	"pandas",
+	"lazily", # @ git+https://codeberg.org/KOLANICH-libs/lazily.py.git
+	"more-itertools", # @ git+https://github.com/more-itertools/more-itertools.git
+	"lazy_object_proxy", # @ git+https://github.com/ionelmc/python-lazy-object-proxy.git
+]
+
+[project.scripts]
+HDDModelDecoder = "HDDModelDecoder.__main__:main"
+
+[tool.setuptools]
+zip-safe = false
+include-package-data = true
+packages = ["HDDModelDecoder", "HDDModelDecoder.utils", "HDDModelDecoder.ml", "HDDModelDecoder.ml.WD_models"]
+
+[tool.setuptools_scm]

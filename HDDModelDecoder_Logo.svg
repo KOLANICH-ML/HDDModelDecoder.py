@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72.007mm" height="97.986mm" version="1.1" viewBox="0 0 72.007 97.986" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>HDDModelDecoder logo</title>
+ <defs>
+  <g id="TorxScrew" transform="scale(.094494)">
+  <g style="transform-origin: 20px 20px;"> 
+  <g transform="translate(1.0526 1.0526)"  stroke="#000" viewBox="0 0 40 40">
+  <metadata>
+   <rdf:RDF>
+    <cc:Work rdf:about="">
+     <dc:format>image/svg+xml</dc:format>
+     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+     <dc:title>Screw Head - Torx</dc:title>
+     <dc:creator>
+      <cc:Agent>
+       <dc:title>Inductiveload</dc:title>
+      </cc:Agent>
+     </dc:creator>
+     <cc:license rdf:resource="https://en.wikipedia.org/wiki/Public_domain"/>
+    </cc:Work>
+   </rdf:RDF>
+  </metadata>
+  <circle cx="20" cy="20" r="20" fill="none" stroke-linecap="square" stroke-width="2.1053"/>
+  <path d="m32.581 27.287c-1.2054 2.081-6.2968-1.189-8.3811 0.01049-2.0844 1.1995-1.8153 7.2446-4.2202 7.2411s-2.1187-6.0477-4.1997-7.2531-7.1817 2.0501-8.3811-0.03423c-1.1995-2.0844 4.1781-4.8587 4.1815-7.2636 0.0034-2.4048-5.3662-5.1945-4.1609-7.2753 1.2053-2.0809 6.2968 1.189 8.3811-0.01049 2.0844-1.1995 1.8153-7.2446 4.2202-7.2411s2.1187 6.0477 4.1997 7.2531 7.1817-2.0502 8.3811 0.03423c1.1994 2.0844-4.1781 4.8588-4.1815 7.2636s5.3662 5.1945 4.1609 7.2753z" stroke-width=".13766"/>
+ </g>
+ </g>
+ </g>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>HDDModelDecoder logo</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>KOLANICH</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:language>13375p334k</dc:language>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="https://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="HDD" transform="matrix(1 0 0 .90163 -73.229 -85.076)">
+  <rect x="73.604" y="101.46" width="71.257" height="101.2" ry=".10461" fill-opacity=".22791" stroke="#070000" stroke-miterlimit="3.2" stroke-width=".75"/>
+  <path d="m76.54 124.08 7.9375-18.71h37.987l18.554 10.433v27.788l-4.6159 5.479v7.7508l4.6159 5.0781-0.033 20.2-4.583 17.198h-46.511l-13.162-9.0714-0.18899-28.326 4.5761-5.0781v-7.7508l-4.5761-5.479z" fill="none" stroke="#000" stroke-width=".365"/>
+  <path d="m83.689 184.02 12.851 8.1265 32.444-0.0334 4.5357-12.473-0.0128-61.01-14.572-8.7173h-29.739l-5.5069 13.664z" fill="none" stroke="#000" stroke-width=".365"/>
+  <rect x="87.773" y="130.94" width="42.012" height="42.791" ry=".098561" fill="#fff" fill-opacity=".47442" stroke-width=".98996"/>
+  <use transform="translate(75.737 104.38)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+  <use transform="translate(138.01 104.38)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+  <use transform="rotate(90 -35.772 115.28)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+  <use transform="translate(75.737 196.11)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+  <use transform="translate(138.01 196.11)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+  <use transform="translate(138.01 151.06)" width="100%" height="100%" xlink:href="#TorxScrew"/>
+ </g>
+ <text id="nameber" transform="scale(.6693 1.4941)" x="21.716806" y="37.976612" fill="#000000" font-family="'Fira Code'" font-size="6.9678px" letter-spacing="0px" stroke-width=".1742" word-spacing="0px" style="line-height:1.25" xml:space="preserve">HDDM0D3LD3C0DE7</text>
+ <g id="Bubble" transform="translate(-73.073 -94.608)" font-family="'Fira Code'">
+  <rect x="87.575" y="143.33" width="41.848" height="9.2604" ry=".10447" fill="none" stroke="#f00" stroke-dasharray="1.4321558, 0.71607791, 0.35803895, 0.71607791" stroke-linejoin="round" stroke-width=".35804"/>
+  <path d="m104.05 94.608h8.6735c7.8056 0 14.09 6.284 14.09 14.09v8.097c0 7.8056-11.558 6.7082-14.09 14.09l-4.9037 11.906-3.7698-11.906c-2.3562-7.4415-14.09-6.284-14.09-14.09v-8.097c0-7.8056 6.284-14.09 14.09-14.09z" fill="#112435" fill-opacity=".47442"/>
+  <text transform="scale(.87409 1.1441)" x="100.81612" y="102.54535" width="141.42999" height="110.68" fill="#008000" font-size="21.065px" letter-spacing="0px" stroke-width=".52662" word-spacing="0px" style="line-height:1.25">{</text>
+  <text transform="scale(.87409 1.1441)" x="133.6097" y="102.54535" width="141.42999" height="110.68" fill="#ff0000" font-size="21.065px" letter-spacing="0px" stroke-width=".52662" word-spacing="0px" style="line-height:1.25">}</text>
+  <foreignObject transform="scale(.115)" x="823" y="870" width="300" height="200">
+   <xhtml:body xml:space="preserve">
+<xhtml:style type="text/css">
+div{
+float: left;
+white-space: pre;
+line-height: 1;
+}
+span {
+	font-size: 10pt;
+	color: #FFFFFF;
+}
+.sc0 {
+}
+.sc4 {
+	color: #FF00FF;
+}
+.sc5 {
+	color: #FFFF80;
+}
+.sc6 {
+	color: #F08047;
+}
+.sc10 {
+	color: #7BD827;
+}
+</xhtml:style>
+<xhtml:div><xhtml:span class="sc6">"vendor"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc6">"KOLANICH"</xhtml:span><xhtml:span class="sc10">,</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc6">"family"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc6">"software"</xhtml:span><xhtml:span class="sc10">,</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc6">"rpm"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc6">"∞"</xhtml:span><xhtml:span class="sc10">,</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc6">"capacity"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc4">0</xhtml:span><xhtml:span class="sc10">,</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc6">"interface"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">{</xhtml:span><xhtml:span class="sc0">
+    </xhtml:span><xhtml:span class="sc6">"interface"</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc6">"python"</xhtml:span><xhtml:span class="sc10">,</xhtml:span><xhtml:span class="sc0">
+    </xhtml:span><xhtml:span class="sc6">"version"</xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc4">3</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc10">},</xhtml:span><xhtml:span class="sc0">
+</xhtml:span><xhtml:span class="sc6">"XGBoost"</xhtml:span><xhtml:span class="sc10">:</xhtml:span><xhtml:span class="sc0"> </xhtml:span><xhtml:span class="sc5">true</xhtml:span></xhtml:div></xhtml:body>
+  </foreignObject>
+ </g>
+</svg>
